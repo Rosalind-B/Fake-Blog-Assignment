@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+    <head>
+    <meta charset="UTF-8" />
+        <title>My Registration Form</title>
+    </head>
+    <form>
+        <label for="first_name">First Name:</label>
+        <input type="text" id="first_name" name="first_name">
+        <p></p>
+        
+        <label for="last_name">Last Name:</label>
+        <input type="text" id="last_name" name="last_name">
+        <p></p>
+        
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email">
+        <p></p>
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+        <p></p>
+        
+        <label for="pw_confirm">Password Confirmation:</label>
+        <input type="password" id="pw_confirm" name="password_confirmation">
+        <p></p>
+        
+        <label for="bday">Birthday</label> 
+        <input type="date" id="bday">
+        <p></p>
+
+        <input type="radio" name="gender" value="male">Male
+        <input type="radio" name="gender" value="female">Female
+        <input type="radio" name="gender" value="other">Other        
+        <p></p>
+
+        <label for="description">A short Description about yourself:</label><br>
+        <textarea name="description"></textarea> 
+        <p></p>
+
+        <label for="favoritelanguage">Favorite Language</label>
+        <select name="Favorite_Language">
+            <option value="Javascript">Javascript</option>
+            <option value="C#">C#</option>
+            <option value="Python">Python</option>
+            <option value="CSS">CSS</option>
+        </select>
+        <p></p>
+
+        <input type="hidden" name="id" value="7"><br>
+
+       <input type="submit" value="Submit"> 
+       <br> 
+    </form>
+</html>
